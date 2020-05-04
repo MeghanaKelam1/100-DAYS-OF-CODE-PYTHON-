@@ -1,0 +1,43 @@
+#numeric data types
+
+a=5
+print(a,"the type of a is",type(a))
+b=2.5
+print(b,"the type of b is",type(b))
+c=1+6j
+print(c,"the type c is",type(c))
+
+#list data type
+
+a=[10,20,30,40,50,60,70,80,90]
+print("[a]=",[a])
+print("[a]=",a[7])
+print("a[0:3]=",a[0:3])
+print("a[5:]=",a[5:])
+
+
+#tuple datatype
+
+a=(4,'program',1+2j)
+print("a[1]=",a[1])
+s = 'hello'
+b ='''hello i am meghana currently pursing btech in department of computer science in hits'''
+print(s)
+print(b)
+
+#example 2
+s = 'hello everyone'
+print(s)
+print("s[2]=",s[2])
+print("s[6:13]=",s[6:14])
+print(b)
+
+#set data type
+
+a = {5,2,7,1,9}
+print(a)
+
+#dictionry data type
+
+d = ('value','key':2)
+type(d)
