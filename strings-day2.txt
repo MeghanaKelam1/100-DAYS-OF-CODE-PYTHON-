@@ -1,0 +1,30 @@
+#basic string functionality:
+
+a='hello'
+print(a)
+a="hello"
+print(a)
+a="""hello"""
+print(a)
+
+#accessing string characters:
+
+str='hello world'
+print("str =",str)
+print("str[0]=",str[0])
+print("str[1:4]=",str[1:4])
+print("str[-2]=",str[-2])
+print("str[6:-2]=",str[6:-2])
+
+#string operations
+s1='hello'
+s2='world'
+print("s1+s2 =",s1+s2)
+print("s1*6 =",s1*6)
+
+#string formatting
+print('''he asked what's are you?''')
+print('he asked what\'s there')
+print("he asked \"what's t\ahere\"")
+print("he aske\rd me how a\bre you")
+print("h\vello everyone")
