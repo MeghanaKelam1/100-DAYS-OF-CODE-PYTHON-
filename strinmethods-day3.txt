@@ -1,0 +1,35 @@
+#python captalize method
+
+str="meghana"
+newstr = str.capitalize()
+print("the old string is:",str)
+print("new string is:",newstr)
+
+#python string centered method
+
+str="meghana"
+str1=str.center(23)
+print("the new string is:",str1)
+
+#casefold function
+str="HELLO EVERYONE"
+print("the new string is:",str.casefold())
+
+#count function
+
+string = "meghana is awesome, isn't it?"
+substring = "is"
+count = string.count(substring)
+print("The count is:", count)
+
+#endswith function,swap function,upper function,lower function,replace function
+
+string = "python is very easy language."
+result = string.endswith('language')
+print(result)
+result = string.endswith("language.")
+print(result)
+print(string.swapcase())
+print(string.replace('python','c'))
+print(string.lower())
+print(string.upper())
