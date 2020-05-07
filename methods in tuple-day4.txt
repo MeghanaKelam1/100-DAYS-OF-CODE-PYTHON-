@@ -1,0 +1,54 @@
+#getting type of the data structure
+list =["mech","cse","areo","bba"]
+print(type(list))
+
+#adding an item using append function it helps to add only one item in the list
+list.append('IT')
+print("the updated list is:",list)
+
+#getting the index of the particluar item using index function
+list1=list.index('mech')
+print("the list is:",list1)
+
+#adding more than one element using extend function
+list2=["auto","mca"]
+list.extend(list2)
+print("the list after using extend function",list)
+
+#inserting an item to the exsisting list,write the index number,name of the item o be inserted
+list.insert(2,'mba')
+print("the list after using insert function",list)
+
+#remove an item using remove function 
+list.remove('mech')
+print("the list after using remove function",list)
+
+#getting count of the list items using count function
+count=list.count('mca')
+print("the list after using count function",count)
+
+#removing an item using pop function,here we need to mention only the index not the name of the item
+list.pop(4)
+print("the list after using pop function",list)
+
+#reversing the list using reverse function,it doesn't require parameters
+list.reverse()
+print("the list after using reverse function",list)
+#getting sorted list using sort function it doesn't require parameters
+list.sort()
+print("the list after using sort function",list)
+#clear function helps to clear the entire list,it doesn't require parameters
+list.clear()
+print("the list after using clear function",list)
+
+#The corresponding output for the above code
+the updated list is: ['mech', 'cse', 'areo', 'bba', 'IT']                                                                                                                     
+the list is: 0                                                                                                                                                                
+the list after using extend function ['mech', 'cse', 'areo', 'bba', 'IT', 'auto', 'mca']                                                                                      
+the list after using insert function ['mech', 'cse', 'mba', 'areo', 'bba', 'IT', 'auto', 'mca']                                                                               
+the list after using remove function ['cse', 'mba', 'areo', 'bba', 'IT', 'auto', 'mca']                                                                                       
+the list after using count function 1                                                                                                                                         
+the list after using pop function ['cse', 'mba', 'areo', 'bba', 'auto', 'mca']                                                                                                
+the list after using reverse function ['mca', 'auto', 'bba', 'areo', 'mba', 'cse']                                                                                            
+the list after using sort function ['areo', 'auto', 'bba', 'cse', 'mba', 'mca']   
+the list after using clear function [ ]  
