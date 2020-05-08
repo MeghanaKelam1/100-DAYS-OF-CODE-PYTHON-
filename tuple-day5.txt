@@ -1,0 +1,60 @@
+
+#TUPLES are immutable,which means we can't change or update items in the tuple,it has an ordered set of items
+
+tuple1 =('mech','bba','cse','it','auto','aero','mech')
+
+#gives the specific item of the index
+index = tuple1.index('cse')
+print("the index is =",index)
+
+#gives the count of the item
+count=tuple1.count('mech')
+print("the count of mech =",count)
+
+#any() funcion returns true if the element is in the iterable list else it will return false
+#all true=true all false=false one true,others false=true
+
+print(any('mech'))
+print(any('bio'))
+
+#all() function works in the same manner as and 
+print(all('mech'))
+
+#the functions len() gives the length of the item
+print(len(tuple1))
+
+#maximum and minimum item in the tuple gives maximum and minimum item of the tuple,based upon ascii
+print(max(tuple1))
+print(min(tuple1))
+
+#ord() function displays the ascii value 
+print(ord('c'))
+
+#pow function displays the power of the number it takes two arguments
+print(pow(2,3))
+
+#reversed() function uses in tuple,list ans also sets,it displays the revrese order 
+tuple2 = 'chem'
+print(tuple(reversed(tuple2)))
+
+#sorted() function gives the sorted list of the items
+print(sorted(tuple1))
+
+#tuplefunction changes any data structure as tuple
+tuple3 = tuple([1,2,3])
+print("tuple3 =",tuple3)
+
+#the corresponding outputs for the above page
+the index is = 2                                                                                                                                                               
+the count of mech = 2                                                                                                                                                          
+True                                                                                                                                                                           
+True                                                                                                                                                                           
+True                                                                                                                                                                           
+7                                                                                                                                                                              
+mech                                                                                                                                                                           
+aero                                                                                                                                                                           
+99                                                                                                                                                                             
+8   
+('m', 'e', 'h', 'c')                                                                                                                                                           
+['aero', 'auto', 'bba', 'cse', 'it', 'mech', 'mech']                                                                                                                           
+tuple3 = (1, 2, 3)
