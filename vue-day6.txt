@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<body>
+
+<div id="app">
+<div class="product">
+<div class="product-image">
+<img :src="image" ALIGN="left" width="500" height="600">
+</div>
+<div class="product-info">
+<h1 style="color:red">{{ product }}</h1>
+<p><b> *100% Original Products<br>
+*Free Delivery on order above Rs. 1199<br>
+*Pay on delivery might be available<br>
+*Easy 30 days returns and exchanges<br>
+*Try & Buy might be available</p>
+<p v-if="inStock">In Stock</p>
+<p v-else>Out of stock<b></p>
+
+<li v-for="info in info">{{info}}</li>
+<br>
+<br>
+
+<button v-on:click="addToCart">AddTocart</button>
+<div class="cart">
+<p>Cart({{cart}})</p>
+<div v-for="variant in variants" :key="variants.variantId">
+<p @mouseover="updateProduct(variant.variantImage)">
+{{variant.variantColor}}
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+var myObject = new Vue({
+  el: '#app',
+  data: {product: 'SalwarSuit',
+  image:'1.jpg',
+inStock: true,
+info:["80% cotton","20% polymer","gender-neural"],
+variants : [
+{
+variantId: 2234,
+variantColor: "green",
+variantImage :'1.jpg '
+},
+{
+variantId :2235,
+variantColor:"blue",
+variantImage:'b.jpg',
+}
+],
+cart :0
+},
+methods :{
+addToCart() {
+this.cart +=1
+},
+updateProduct(variantImage){
+this.image = variantImage
+}
+}
+})
+</script>
+
+</body>
+</html>
