@@ -1,0 +1,26 @@
+<html>
+<script>
+console.log(45);
+console.log(56.8);
+//console.log("this is a single line comment");
+/*console.log("hello world");
+console.log("good evening");
+*/
+console.log("javascript");
+console.log(19+10);
+console.log('2+3');
+console.log('hello' + 'world');
+console.log('hello'+' '+'world');
+console.log('hello everyone i am meghana'.length);
+console.log('Codecademy'.toUpperCase());
+cosole.log('   codecademy '.trim());
+console.log('hello'.startsWith('h'));
+console.log(Math.random() * 100);
+console.log(Math.floor(Math.random() * 100);
+console.log(Math.ceil(45.7));
+console.log(Number.isInteger(2000));
+</script>
+</html>
+
+
+
