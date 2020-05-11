@@ -1,0 +1,34 @@
+'''
+#the following functions are remove.add,difference,difference_update,discard,intersection,intersection_update,pop,union,symmetric_difference,symmetric_difference_update
+set ={'meghana','balu','aparna','swetha','alekhya'}
+set2={'alekhya','abhishek','balu','aparna'}
+set.remove('swetha');
+print('updated set=',set);
+set.add('swetha');
+print('updated set =',set);
+set1 = set;
+set1.add('alekhya');
+print('updated set=',set1)
+print(set.difference(set2));
+
+print(set.difference_update(set2));
+set.discard('alekhya');
+print('the updates set =',set)
+print(set.intersection(set2));
+a={1,2,9,4}
+b={0,4,6}
+print(a.intersection(b));
+print(a.intersection_update(b));
+print(a.isdisjoint(b));
+print(a.issubset(b));
+print(a.pop());
+print(set.union(set2));
+print(set.update(set2));
+print(set.symmetric_difference(set2));
+print(set.symmetric_difference_update(set2));
+print(set.clear());
+
+#corresponding outputs:
+
+updated set= {'aparna', 'balu', 'meghana', 'alekhya'}                                                    updated set = {'aparna', 'balu', 'meghana', 'swetha', 'alekhya'}                                        updated set= {'aparna', 'balu', 'meghana', 'swetha', 'alekhya'}                                          {'meghana', 'swetha'}                                                                                    None                                                                                                    the updates set = {'swetha', 'meghana'}                                                                  set()                                                                                                    {4}                                                                                                   None                                                                                                     False          
+{'abhishek', 'balu', 'swetha', 'aparna', 'meghana', 'alekhya'}                                           None                                                                                                  {'meghana', 'swetha'}                                                                                    None                                                                                                     None
