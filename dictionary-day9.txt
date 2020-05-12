@@ -1,0 +1,28 @@
+#dictionary methods
+dict = {1:'one',2:'two'}
+new =dict.copy();
+print("the original dict",dict);
+print('new dict =',new);
+dict1={'a','e','i','o','u'}
+print("the updated dict is",dict.fromkeys(dict1));
+dict2={'name':'meghi','age':'19'}
+print("the name is",dict2.get('name'))
+print(dict2.items());
+print(dict2.keys());
+print(dict2.popitem());
+print(dict.pop(1));
+print(dict.values());
+print(dict.clear());
+
+#corresponding outputs
+
+the original dict {1: 'one', 2: 'two'}                                                                                                                                          
+new dict = {1: 'one', 2: 'two'}                                                                                                                                                 
+the updated dict is {'o': None, 'u': None, 'e': None, 'i': None, 'a': None}                                                                                                     
+the name is meghi                                                                                                                                                               
+dict_items([('age', '19'), ('name', 'meghi')])                                                                                                                                  
+dict_keys(['age', 'name'])                                                                                                                                                      
+('age', '19')                                                                                                                                                                   
+one                                                                                                                                                                             
+dict_values(['two'])                                                                                                                                                            
+None         
