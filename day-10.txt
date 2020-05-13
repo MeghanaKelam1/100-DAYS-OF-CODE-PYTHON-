@@ -1,0 +1,69 @@
+
+#function definition and function calling 
+def greet(name):
+    print("hello " + name + " how are you!")
+greet('meghana')
+
+#function with return
+def number(num):
+    if num > 0:
+        return num;
+    else:
+        return -num;
+print(number(2))
+print(number(-7))
+
+#scope of the variable
+
+def variable():
+    x=10
+    print("the value inside the function",x)
+x=20;
+variable()
+print("the value outside the function",x)
+
+#built-in functions
+
+#absolute function
+integer = -30
+print("the absolute value of the integer is",abs(integer))
+
+#bin function
+
+number = 8;
+print("the binary value of the 8 is: ",bin(number))
+
+#callable function
+
+x = 5
+print(callable(x))
+
+def function():
+    print("test");
+y=function
+print(callable(y))
+
+#chr function
+
+print(chr(97))
+print(chr(111))
+
+#complex function
+
+x = complex(2,-3)
+print(x)
+
+#dict function
+
+x =dict(x=5,y=9)
+print("x=",x)
+
+#divmode function
+
+print("divmode(10,3)=", divmod(10,3))
+print('divmod(8, 3) = ', divmod(8, 3))
+
+# corresponding outputs:
+
+hello meghana how are you!                                                                               2                                                                                                       7                                                                                                        the value inside the function 10                                                                         the value outside the function 20                                                                       the absolute value of the integer is 30                                                                  the binary value of the 8 is:  0b1000                                                                False                                                                                                    True                                                                                                     a        
+o                                                                                                       (2-3j)                                                                                                  x= {'y': 9, 'x': 5}                                                                                   divmode(10,3)= (3, 1)                                                                                    divmod(8, 3) =  (2, 2)    
