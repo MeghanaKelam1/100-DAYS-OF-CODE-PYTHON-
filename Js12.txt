@@ -1,0 +1,25 @@
+<html>
+<body>
+<style>
+li,body
+{
+background-color:yellow;
+display:inline;
+font-size:30px;
+font-family:arial
+}
+</style>
+<p>...........................................................................................................................................................................................................................................................</p>
+<!-- the following code prints the right side navigation bar -->
+<li><a href="#home">HOME</a><li>
+<li><a href="#about">ABOUT</a><li>
+<li><a href="#contact us">CONTACT</a><li>
+<p>..............................................................................................................................................................................................................................................................</p>
+
+<p id="demo" style="dispaly:none">hello everyone!welcome to the world of learning lets see one small example on javascript and html functionality with image attribute and css styles<br><img src="1.jpg" width='200' height='200'/><br.............................................................................................................................................................................................................................................></p>
+<img src="b.jpg" width='200' height='200'/>
+</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML="my firstjavascript program :)"'>Click Me
+<body></button>
+
+
