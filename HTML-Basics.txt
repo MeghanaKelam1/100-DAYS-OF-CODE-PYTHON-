@@ -1,0 +1,46 @@
+<html>
+<body>
+<title>Html basics</title>
+<!-- functionality of heading tags shown through below code -->
+<h1>Hello World</h1>
+<h2>hello world</h2>
+<h3>hello world</h3>
+<h4>hello world</h4>
+<h5>hello world</h5>
+<h6>hello world</h6>
+<!-- paragraph tag helps to structure sentenced in web pages-->
+
+<p>this tags represents parameter by using this tag wr can frame sentences</p>
+<ol>
+<li>meghana</li>
+<li>aparna</li>
+<li>swetha</li>
+</ol>
+<ul>
+<li>meghana</li>
+<li>aparna</li>
+<li>swetha</li>
+</ul>
+<p><b>hola</b><br>hello everyone</p>
+<p><i>this i tag stands fot italic</i></p>
+<table>
+<tr>
+    <th>name</th>
+    <th>no</th>
+    
+</tr>
+<tr>
+    <td>ram</td>
+    <td>112</td>
+</tr>
+<tr>
+
+    <td>syam</td>
+    <td>114</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+
