@@ -1,0 +1,25 @@
+<html>
+<body>
+<h1>Html forms</h1>
+<form>
+    first name:<input type="text" name ="first_name"/>
+    <br>
+    last name:<br><input type="text" name="last_name" />
+    <br><br>
+    <input type ="checkbox" name="female" value="on">female
+    <input type ="checkbox" name="male" value="on">male
+    <br><br>
+    <select name="dropdown">
+        <option value ="cse" selected>cse</option>
+        <option value ="auto">auto</option>
+        <option value="mech">mech</option>
+    </select><br><br>
+    <input type="file" name="file uploaded" accept="image/*" />
+   <br><br>
+   <input type="submit" name="submit" value="submit"/>
+
+<input type="button" name="reset" value="reset" />
+</form>
+</body>
+</html>
+
