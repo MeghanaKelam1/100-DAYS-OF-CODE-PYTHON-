@@ -1,0 +1,49 @@
+print("Hello World")
+def greet():
+    print("hello")
+    print("good morning")
+greet()
+
+def add(x,y):
+    c=x+y
+    print(c)
+add(4,4) 
+
+def addsub(a,b):
+    c = a+b
+    d = a-b
+    print(c,d)
+addsub(4,3)
+
+def add_sub(a,b):
+    c=a+b
+    d=a-b
+    return c,d
+result1,result2= add_sub(4,4)
+print(result1,result2)
+
+def frnd(*friends):
+    print("the best friend is "+friends[1])
+frnd("mary","john","ryan")
+
+def arg(fname,lname):
+    print(fname +" "+ lname)
+arg("mr","john")
+
+def default(country = "india"):
+    print("i am from "+ country)
+default("norway") 
+default("swedan")
+default()
+
+def myfunc(food):
+    for x in food:
+      print(x)
+fruit =["mango","apple"]
+myfunc(fruit)
+
+def details(name):
+    print(name +" details")
+details("email")  
+details("address")
+details("mobile no")
