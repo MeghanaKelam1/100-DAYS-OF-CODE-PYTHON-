@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>HTML5</title>
+</head>
+<body>
+<main>
+<p>let's write something here to display it in the top most section of the page</p> 
+</main>
+<section>
+<h1>section 1</h1>
+<p>I am gonna state few online certification courses let's see it in section 2</p>
+</section>
+<section>
+<p>Tcs ion caree edge<br>Google digital library<br>Lynda from LinkedIn<br>Coursera</p>
+<hr>
+<p>The above line will give a thematic break to seperate the text</p>
+<emp> This tag will give a emphasize text </emp>
+<small>It displays the smaller text when compare to other text in the page</small>
+<article>
+<h2>hello</h2>
+<p>is tag works same as section</p>
+</article>
+<footer>
+<p>coded by:</p>
+<a href="meghanakmamb1@gmail.com">click here to get mail id</a>
+</footer>
+</body>
+</html>
