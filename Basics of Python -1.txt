@@ -1,0 +1,82 @@
+#source :W3 schools
+
+#indentation example-1
+if 2>0:
+ print("it is true")
+ 
+#indentation example-2
+if 2>1:
+ print("true")
+if 3>2:
+    print("it is also true")
+
+#variables
+x = 10
+y = "good evening"
+print(x)
+print(y) 
+
+#this represents comments in python
+
+'''
+it represents multiline comments in python 
+'''
+
+#variables-2
+x = "meghana"
+x = "anu" 
+print("x ")
+
+#assigning multiple variables
+x,y,z = "error","bug","fault"
+print(x)
+print(y)
+print(z) 
+
+#example-1
+x = y = z = "john"
+print(x)
+print(y)
+print(z)
+
+#output variables
+x = "India"
+print("i am from " +x)
+
+#example-2
+x= "hello "
+y = "world"
+print(x + y)
+
+#example-3
+a= "we are"
+b= " indians"
+z = a+b
+print(z)
+
+#example-4
+x = 10
+y = 20
+print(x+y)
+#example-5
+x = "john"
+def func():
+ print(" i am " +x)
+func() 
+
+#global variables
+
+x = "rita"
+def func():
+ x = "sam"
+ print("my name is " +x)
+func()
+print("my name is " +x)
+
+#example-1
+def fun():
+ global x
+ x = "dance"
+fun()
+print("i love to " +x)
+
