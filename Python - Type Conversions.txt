@@ -1,0 +1,37 @@
+#python type conversions
+n1 = 10
+n2 = 20.5
+n = n1+n2
+print("the type of n1 is:",type(n1))
+print("the type of n2 is:",type(n2))
+print('the value of =',n)
+print('the type of n',type(n))
+
+'''python string and int conversion
+num_int = 500
+num_str = "200"
+print("the type of a is ",type(num_int))
+print("the type of b is ",type(num_str))
+num_int = int(num_str)
+print('the type of b after conversion',type(num_str))
+num_sum = num_int + num_str
+print('the sum is ',num_str)
+'''
+#python addition
+
+a = 10
+b = 30
+c = a+b
+print(c)
+
+# biggest of 3 no's
+a = 197
+b = 538
+c = 836
+if ((a>b) and (a>c)):
+    print("a is bigger")
+elif ((b>a) and (b>c)):
+    printf('b is bigger')
+else:
+    print("c is bigger")
+    
