@@ -1,0 +1,45 @@
+<html>
+<body>
+<caption>Studentdetails</caption>
+<table border = "1">
+    <tr>
+        <th col span = "2">Name</th>
+        <th>Number</th>
+        <th>Dept</th>
+        <th>Section</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>meghana</td>
+        <td>17113118</td>
+        <td>cse</td>
+        <td>A</td>
+        <td>3</td> 
+    </tr>
+    <tr>
+        <td>bhavani</td>
+        <td>17113116</td>
+        <td>ece</td>
+        <td>B</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>suprita></td>
+
+        <td>17113113</td>
+        <td>cse</td>
+        <td>C</td>
+        <td>4</td>
+    </tr>
+    
+    
+</table>
+<img src = "pic_trulli.jpg" alt = "picture is loading it will take some time" width ="50" />
+<a href ="https://www.google.com">click here to get more info</a>
+    
+</body>
+</html>
+
+
+
+
