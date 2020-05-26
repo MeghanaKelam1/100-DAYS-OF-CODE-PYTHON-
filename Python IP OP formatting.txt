@@ -1,0 +1,45 @@
+#python output function
+a = 5
+print("the value of a:",a)
+
+#seperator operators
+print(1,2,3,4)
+print(1,2,3,4, sep = '*')
+print(1,2,3,4, sep = '&',end = '$')
+
+#output formatting
+x = 5; y = 7
+print("\nthe value of x is {} and y is {}".format(x,y)) 
+
+#example-1
+print("i love {0} and {1}".format('john','ryan'))  
+print(" hello {name}, {greeting}".format(name = 'john',greeting ='good mrng'))  
+
+#input formatting
+num = input("enter a number")
+
+#import
+import math
+print(math.pi) 
+
+#operators
+#arthimetical operators
+x = 4
+y = 3
+print("x+y",x+y)
+print("x-y",x-y)
+print("x*y",x*y)
+print("x/y",x/y)
+print("x%y",x%y)
+print("x//y",x//y)
+print("x**y",x**y)  
+
+#comparison  operators
+x = 12
+y = 3
+print(x>y)
+print(x == y)
+print( x != y)
+print(x<y)
+print(x<=y)
+print(x>=y)
