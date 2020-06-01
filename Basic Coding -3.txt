@@ -1,0 +1,92 @@
+#include <stdio.h>
+
+int main()
+{
+int n,i;
+printf("enter the number:");
+scanf("%d",&n);
+for(i=1;i<=n;++i)
+
+printf("\n%d * %d :%d",n,i,n*i);
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+int n,i,t1=0,t2=1,t;
+printf("enter the number:");
+scanf("%d",&n);
+printf("fibinocci series is:");
+
+for(i=0;i<n;i++)
+{
+    printf("%d ",t1);
+    t=t1+t2;
+    t1=t2;
+    t2=t;
+}
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+int n,count;
+printf("enter an integer:");
+scanf("%d",&n);
+while(n>0)
+{
+    n=n/10;
+    count++;
+}
+printf("the count of the integer is:%d",count);
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+int n,rev=0,re;
+printf("enter an integer:");
+scanf("%d",&n);
+while(n>0)
+{
+    re=n%10;
+    rev=rev*10+re;
+    n=n/10;
+}
+printf("the reverse of  the integer is:%d",rev);
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main()
+{
+int bn,en,result=1;
+printf("enter the base number:");
+scanf("%d",&bn);
+printf("enter the exponent number:");
+scanf("%d",&en);
+while(en > 0)
+{
+    result*=bn;
+    en--;
+}
+printf("the power of the number is:%d",result);
+    return 0;
+}
+
