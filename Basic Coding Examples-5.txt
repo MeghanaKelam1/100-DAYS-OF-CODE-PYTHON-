@@ -1,0 +1,132 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=10,b=20,c=30,d=40;
+    printf("\n%d",a++);
+    printf("\n%d",++b);
+    printf("\n%d",c--);
+    printf("\n%d",--d);
+    printf("\n%d",++a);
+
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    prime();
+    return 0;
+}
+int prime()
+    {
+    int n,i,count=0;
+    printf("enter a no:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        if(n%i == 0)
+        {
+            count++;
+        }
+    }
+    if(count == 2)
+    printf("prime");
+    else
+    printf("not prime");
+
+    
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n,rem,re=0,ori;
+    printf("enter the number:");
+    scanf("%d",&n);
+    ori = n;
+    while(n > 0)
+    {
+        rem = n%10;
+        re=re*10+rem;
+        n=n/10;
+    }
+    if(ori == re)
+    printf("palindrome");
+    else
+    printf("not a palindrome");
+    
+
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    double a,b;
+    char op;
+    printf("enter the operator(+,-,*,/)");
+    scanf("%c",&op);
+    printf("enter the operands:"); 
+    scanf("%lf%lf",&a,&b);
+    switch(op)
+    {
+        case '+':
+        printf("%lf+%lf =%lf",a,b,a + b);
+        break;
+        case '-':
+        printf("%lf-%lf=%lf",a,b,a - b);
+        break;
+        case '*':
+        printf("%lf*%lf=%lf",a,b,a * b);
+        break;
+        case '/':
+        printf("%lf/%lf=%lf",a,b,a / b);
+        break;
+        default:
+        printf("invalid operator");
+    }
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+int add(int num1, int num2){
+return num1+num2;
+}
+int main()
+{
+    int num1,num2,num3;
+    printf("enter a:");
+    scanf("%d",&num1);
+    printf("enter b:");
+    scanf("%d",&num2); 
+
+ num3 = add(num1, num2);
+ 
+        
+    printf("addition of %d is ",num3);
+
+
+    return 0;
+}
+
+
+
+
+
