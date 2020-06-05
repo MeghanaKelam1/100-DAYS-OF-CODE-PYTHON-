@@ -1,0 +1,104 @@
+//code-1
+#include <stdio.h>
+void print()
+{
+    printf("world");
+    
+}
+void main()
+{
+    printf("hello");
+    print();
+}
+
+//code-2
+#include <stdio.h>
+void add();
+void main()
+{
+
+    add();
+}
+void add()
+{
+    int a,b,c;
+    printf("enter the numbers:");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+    
+}
+
+//code-3
+#include <stdio.h>
+int add();
+int main()
+{
+    int result;
+    result = add();
+    printf("%d",result);
+
+
+}
+int add()
+{
+    int a,b,c;
+    printf("enter the numbers:");
+    scanf("%d%d",&a,&b);
+    return a+b;
+    
+}
+
+
+//code -4
+#include<stdio.h>
+int add();
+void main()
+{
+     int result = area();
+    printf("%d",result);
+}
+int area()
+{
+    int side;
+    printf("the side of the sqaure:");
+    scanf("%d",&side);
+    return side*side;
+}
+
+//code-5
+#include<stdio.h>
+void add(int ,int);
+void main()
+{ 
+    int a,b,result;
+    printf("enter the number:");
+    scanf("%d%d",&a,&b);
+    add(a,b);
+    
+  
+}
+void add(int a,int b)
+{
+ printf("the sum is:%d",a+b);
+}
+
+
+//code-6
+#include<stdio.h>
+void add(int);
+void main()
+{ 
+    int a,b,result;
+    printf("enter the number:");
+    scanf("%d",&a);
+    area(a);
+    
+  
+}
+void area(int a)
+{
+ printf("the area is:%d",a*a);
+}
+
+
