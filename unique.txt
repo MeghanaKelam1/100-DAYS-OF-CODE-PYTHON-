@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int count,i,j,a[6]={1,2,3,4,4,1};
+    printf("printing the unique numbers in an array:");
+    for(i=0;i<6;i++){
+    count=0;
+    for(j=0;j<6;j++){
+        if(a[i] == a[j])
+    count++;
+    }
+    if(count == 1)
+    printf("%d",a[i]);
+    }
+    return 0;
+}
