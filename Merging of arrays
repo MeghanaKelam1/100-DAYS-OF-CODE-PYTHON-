@@ -1,0 +1,35 @@
+include <stdio.h>
+
+int main()
+{
+    int a[10],b[10],c[10];
+    int n,m,o,i,j;
+    printf("enter size of first array:");
+    scanf("%d",&n);
+    printf("array-1");
+    for(i=0;i<n;i++)
+    {
+    scanf("%d",&a[i]); 
+    }
+    printf("enter the size of second array");
+    scanf("%d",&m);
+    printf("array-2");
+    for(i=0;i<m;i++)
+    {
+        scanf("%d",&b[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        c[i] = a[i];
+    }
+    o = m+n;
+    for(i = 0, j =m; i<m && j<o; i++, j++)
+    {
+        c[i] = b[i]; 
+}
+for(i=0;i<o;i++)
+{
+    printf("%d",c[i]);
+}
+    return 0;
+}
