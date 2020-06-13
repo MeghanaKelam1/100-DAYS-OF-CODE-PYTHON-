@@ -1,0 +1,46 @@
+/** Finding second largest element in an array***/
+
+#include <stdio.h>
+#include<limits.h>
+
+int main()
+{
+    int i,a[10],n,s,l;
+    printf("size:");
+    scanf("%d",&n);
+    printf("enter elements:");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    l = s = INT_MIN;
+    for(i=0;i<n;i++)
+    {
+        if(a[i] > l)
+        {
+            s = l;
+            l = a[i];
+        }
+        else if(a[i] > s && a[i] != l)
+        {
+            s = a[i];
+        }
+    }
+    if(s == INT_MIN)
+    printf("no second largest");
+    else
+    printf("second lsrgest:%d",s);
+    
+    return 0;
+} 
+
+#Competitive coding Q/A
+#include <stdio.h>
+
+int main()
+{
+    printf(5+"Hello World");
+    printf("\nMeghanaaa\b\b Reddy");
+    return 0;
+}
+
