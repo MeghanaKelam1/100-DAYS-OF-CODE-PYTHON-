@@ -1,0 +1,52 @@
+/**Finding  second smallest number in an array**/
+#include <stdio.h>
+#include <limits.h>
+Iint main()
+{
+    int n,i,a[10],s,ss;
+    printf("enter the size:");
+    scanf("%d",&n);
+    printf("enter elements:");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    s = ss = INT_MAX;
+    for(i=0;i<n;i++)
+    {
+        if(a[i] < s)
+        {
+            ss = s;
+            s = a[i];
+        }
+        else if(a[i] < ss && a[i] != s)
+        {
+            ss = a[i];
+        }
+    }
+        if(ss == INT_MAX)
+        printf("no second smallest");
+        else
+        printf("second smallest is:%d",ss);
+    
+    return 0;
+} 
+
+Coding examples-2
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c=2;
+    a = 10,20,30; 
+    b = (10,20,30); 
+    c = (c=+2,c+10);
+    printf("%d",a); 
+    printf("\n%d",b);
+    printf("\n%d",c);
+    return 0;
+} 
+   
+
+
+
