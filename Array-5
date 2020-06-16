@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int i,j,n,c,a[10],fr[10];
+    
+    printf("size:");
+    scanf("%d",&n);
+    printf("enter elements:");
+    for(i=0;i<n;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+    fr[i] = -1;
+    for(i=0;i<n;i++)
+    {
+        c = 1;
+        for(j=1;j<n;j++)
+    {
+        if(a[i] == a[j])
+        {
+            c++;
+            fr[j] = 0;
+        }
+    }
+    if(fr[i]!=0)
+    {
+        fr[i]=c;
+    }
+    }
+    for(i=0;i<n;i++)
+    {
+    if(fr[i]!=0)
+    {
+        printf("%d occurs %d times:",a[i],fr[i]);
+    
+}
+}
+    return 0;
+}
+
+
+
+/** Competitive Coding **/
+#include<stdio.h> 
+int main()
+{ 
+int a,b,c,d,e;
+a = (10>20 && 10>5); 
+b = 20>10>30;
+c = (2>0 && 5>4); 
+d = !!12;
+e = !12;
+printf("%d",a);
+printf("\n%d",b);
+printf("\n%d",c);
+printf("\n%d",d);
+printf("\n%d",e);
+}
