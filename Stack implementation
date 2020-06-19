@@ -40,6 +40,35 @@ push(3);print();
 pop();print();
 push(12);print();
 }
+/** smallest and largest umber in an array **/
+#include <stdio.h>
 
+int main()
+{
+    int large,small,a[10],i,n,j;
+    printf("enter the size:");
+    scanf("%d",&n);
+    printf("enter the array:");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    large=a[0];
+    small=a[0];
+    for(i=1;i<n;i++)
+    {
+        if(a[i]>large)
+        
+        large=a[i];
+    }
+
+    {
+        if(a[i]<small)
+        small=a[i];
+    }
+printf("the largest number is:%d",large);
+printf("the smallest number is:%d",small);
+    return 0;
+}
 
 
