@@ -1,0 +1,45 @@
+#include<stdio.h>
+#define max_size 101
+int a[max_size];
+int top = -1;
+void push(int x)
+{
+if(top == max_size-1)
+{
+printf("stack is full: overflow");
+return;
+}
+a[++top] = x;
+}
+void pop()
+{
+if(top == -1)
+{
+printf("stack is empty:underflow");
+return;
+}
+top--;
+}
+int Top()
+{
+return a[top];
+}
+void print()
+{
+int i;
+printf("stack");
+for(i=0;i<=top;i++)
+printf("%d",a[i]);
+printf("\n");
+}
+int main()
+{
+push(2);print();
+push(8);print();
+push(3);print();
+pop();print();
+push(12);print();
+}
+
+
+
