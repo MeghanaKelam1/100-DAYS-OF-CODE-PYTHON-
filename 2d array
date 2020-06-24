@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+int i,n,j,a[2][2];
+
+printf("array is");
+for (i=0;i<2;i++)
+{
+for (j=0;j<2;j++)
+{
+scanf("%d",&a[i][j]);
+}
+}
+printf("2D array is");
+for(i=0;i<2;i++)
+{
+printf("\n");
+for(j=0;j<2;j++)
+printf("%d\t",a[i][j]);
+}
+printf("\n");
+}
