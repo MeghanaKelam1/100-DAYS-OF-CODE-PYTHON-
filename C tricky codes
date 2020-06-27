@@ -1,0 +1,31 @@
+#include<stdio.h>
+#define a 5+2
+int main()
+{
+
+printf ("%d",a*a*a);
+}
+
+
+#include<stdio.h>
+#define a 5+2
+int main()
+{
+int n=65;
+switch (n)
+{
+case 64:
+{
+printf("hello");
+
+}
+case 'A':
+{
+printf("hi");
+
+}
+default:
+{
+printf("nothing");
+}
+}
