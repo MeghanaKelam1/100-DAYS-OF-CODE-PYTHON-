@@ -1,0 +1,17 @@
+#include<stdio.h>
+#define a 5+2
+int main()
+{
+int n=65;
+switch (n)
+{
+case 65:
+{
+printf("hello");
+}
+default:
+{
+printf("nothing");
+}
+}
+}
