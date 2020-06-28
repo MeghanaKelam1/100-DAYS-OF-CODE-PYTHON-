@@ -1,0 +1,83 @@
+code 1:
+#include <stdio.h>
+
+int main()
+{ 
+    int i=65;
+switch(i)
+{
+    case 65:
+    {
+        printf("integer 65");
+        break;
+    }
+    case 'A':
+    {
+    printf("char A");
+    break;
+    }
+    default:
+    {
+        printf("not anything");
+        
+    }
+}
+    return 0;
+}
+
+code 2:
+
+#include <stdio.h>
+
+int main()
+{ 
+    int i=1;
+    i++;/** i=2,i++=1**/
+    switch(i--)/** i--=2**/
+{
+    case 1:
+    {
+        printf("case 1");
+        break;
+    }
+    case 2:
+    {
+    printf("case 2");
+    break;
+    }
+    default:
+    {
+        printf("not anything");
+        
+    }
+}
+    return 0;
+}
+
+
+code 3:
+
+
+#include <stdio.h>
+
+int main()
+{ 
+    int a=9;
+    switch(a)
+    {
+        case 1:
+        case 4:
+        {
+            printf("hello");
+            break;
+        }
+        case 5:
+        case 9:
+        {
+            printf("bye");
+            break;
+        }
+        
+    }
+    return 0;
+}
