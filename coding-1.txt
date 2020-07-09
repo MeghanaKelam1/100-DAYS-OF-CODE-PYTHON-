@@ -1,0 +1,93 @@
+//Hacker rank practice questions
+#include <stdio.h>
+#include <string.h>
+//#include <math.h>
+//#include <stdlib.h>
+
+
+
+int main() 
+{
+    int a, b, i;
+    scanf("%d\n%d", &a, &b);
+  	// Complete the code.
+      for(;a<=b;a++)
+      {
+          if(a==1)
+          printf("one\n");
+          else if(a==2)
+          printf("two\n");
+          else if(a == 3)
+          printf("three\n");
+          else if(a == 4)
+          printf("four\n");
+          else if(a == 5)
+          printf("five\n");
+          else if(a==6)
+          printf("six\n");
+          else if(a ==7)
+          printf("seven\n");
+          else if(a == 8)
+          printf("eight\n");
+          else if(a ==9)
+          printf("nine\n");
+          else if(a >9 && a%2 == 0 )
+          printf("even\n");
+          else 
+          printf("odd\n");
+          }
+
+    return 0;
+}
+
+//bitwise operator
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+//Complete the following function.
+
+
+void calculate_the_maximum(int n, int k) {
+  //Write your code here.
+int and=0,or=0,xor=0;
+int i,j;
+for(i=1;i<=n;i++)
+{
+    for(j=i+1;j<=n;j++)
+    {
+        if(((i&j) > and) && ((i&j) < k))
+        and = i & j;
+        if(((i|j) > or) && ((i|j) < k))
+        or = i | j;
+        if(((i^j) > xor) && ((i^j) < k))
+        xor = i^j;
+    }
+}
+printf("%d\n%d\n%d",and,or,xor);
+}
+
+int main() {
+    int n, k;
+  
+    scanf("%d %d", &n, &k);
+    calculate_the_maximum(n, k);
+ 
+    return 0;
+}
+
+
+//Area of an equilateral traingle
+
+#include <stdio.h>
+#include<math.h>
+int main(void) {
+    //A Simple Hello World
+    int a;
+    float c;
+    scanf("%d",&a);
+    c=(1*(sqrt(3)*a*a)/4);
+    printf("%.2f",c);
+    return 0;
+}
