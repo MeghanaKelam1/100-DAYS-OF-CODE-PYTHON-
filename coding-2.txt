@@ -1,0 +1,54 @@
+//Guvi coding practice
+
+#include<stdio.h>
+void main()
+{
+    int N;
+    scanf("%d",&N);
+    printf("%d",N*N*N);
+    
+}
+
+#include <stdio.h>
+  int main(void) {
+    int a,b,c;
+           scanf("%d",&a);
+         b=a*1000;
+          c=a*100000;
+         printf("%d\n",b);
+		printf("%d",c);
+return 0;
+}
+
+#include <stdio.h>
+int main(void) {
+         int a,b,c;
+    scanf("%d",&a);
+scanf("%d",&b);
+c=a+b;
+printf("%d",c);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main(void) {
+ float d;
+ int a;
+ scanf("%d",&a);
+ d = (1*(sqrt(3)*a*a)/4);
+ printf("%.2f",d);
+ return 0;
+}
+
+#include<stdio.h>
+void main()
+{
+    int fact=1,n,i;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+    fact=fact*i;
+    }
+    printf("%d",fact);
+}
