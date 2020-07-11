@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+ char ch,s[100],sen[150];
+ scanf("%c*c",&ch);
+ printf("%c",ch);
+ scanf("%s*c",s);
+ printf("\n%s",s);
+ scanf(" %[^\n]%*c",sen);
+ printf("\n%s",sen);
+    return 0;
+}
+code:2
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+    float c,d;
+    scanf("%d %d",&a,&b);
+    scanf("%f %f",&c,&d);
+    printf("%d %d",a+b,a-b);
+    printf("\n%1.1f %1.1f",c+d,c-d);
+    
+    return 0;
+}
