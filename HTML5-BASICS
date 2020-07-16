@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<header>
+my progress in Html:<progress min="0" max="100" value="55">
+</progress>
+</header>
+
+<svg width="300" height="180">
+   <circle cx="80" cy="80" r="50" fill="green" />
+</svg>
+<br>
+<svg width="300" height="100">
+<rect width="200" height="100"
+x="5" y ="10" fill="green"/>
+</svg>
+<br>
+<svg height="500" width="600">
+<ellipse cx="100" cy="100" rx="80" ry="60" fill="red"/>
+</svg>
+</html>
