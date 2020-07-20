@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+  //  printf("Hello World");
+    switch(a)
+    {
+        
+    }
+
+    return 0;
+}
+
+//op:An empty output screen
+
+#include <stdio.h>
+
+int main()
+{
+    int a=30;
+    printf("%d %d %d",a<=30,a=40,a==30);
+   //excecution starts from right to left
+    return 0;
+}
+
+//op:0 40 1
+
+#include <stdio.h>
+
+int main()
+{
+    
+    if('A'<'a')//65<97
+    printf("hi");
+    else
+    printf("hello");
+  
+    return 0;
+}
+
+//op:hi
