@@ -61,3 +61,20 @@ int main()
     
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main()
+{
+    int i=10;
+    int *p;
+    p=&i;
+    printf("%d",i);//gives value of i ie...10
+    printf("\n%d",p);//gives the address stored at i
+    printf("\n%d",&i);//gives the address of i
+    printf("\n%d",&p);//gives address stored at p
+    printf("\n%d",*p);//gives value of p
+    printf("\n%d",(*(&i)));//first returns the adress of i and then gives value stored at address of i
+    return 0;
+}
