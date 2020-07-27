@@ -1,0 +1,63 @@
+//changing value  pointed by pointers
+
+#include <stdio.h>
+int main()
+{
+    int* p,c;
+    c=1;
+    p = &c;
+    c=5;
+    printf("%d",c);//5
+    printf("\n%d",*p);//5
+ 
+}
+
+
+#include <stdio.h>
+int main()
+{
+    int* p,c;
+    c=1;
+    p = &c;
+    *p=1;
+  
+    printf("\n%d",*p);//1
+  printf("\n%d ",c);//1
+}
+
+
+#include <stdio.h>
+int main()
+{
+    int* p,c,d;
+    c=5;
+    d=10;
+    p=&c;
+    p=&d;
+    
+  
+    printf("\n%d",*p); //prints value of the c
+  printf("\n%d ",*p);//prints value of the d
+  printf("\n%p",&p);//prints address
+  printf("\n%p",&p);//prints address
+}
+
+#include<stdio.h>
+int main()
+{
+    int* p,c;
+    c=22;
+    printf("address of c is:%p\n\n",&c);
+    printf("value of c is:%d\n\n",c);//22
+    p=&c;
+    printf("\naddress of p is:%p\n\n",&p);
+    printf("\nvalue of p is:%d\n\n",*p);//22
+    c=11;
+    printf("\naddress of c is:%p\n\n",&c);
+    printf("\nvalue of c is:%d\n\n",*p);//11
+    *p=3;
+    printf("\naddress of p is:%p\n\n",&p);
+    printf("\nvalue of p is:%d\n\n",*p);//3
+    
+    return 0;
+}
