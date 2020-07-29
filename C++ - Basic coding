@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a[5];
+    a[0]=5;
+    a[3/2]=3;
+    a[2]=8;
+    a[4]=6;
+    cout<<a[0]<<" "<<a[1]<<" "<<a[2]<<" "<<a[4];
+    
+
+    return 0;
+}
