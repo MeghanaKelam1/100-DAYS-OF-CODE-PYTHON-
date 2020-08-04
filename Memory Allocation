@@ -1,0 +1,52 @@
+Code-1:
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+   /** int i,*ptr,n,sum=0;
+    printf("enter the number:");
+    scanf("%d",&n);
+    ptr=(int*)malloc(n * sizeof(int));
+    if(ptr == NULL)
+    {
+        printf("The memory is not allocated");
+        exit(0);
+    }
+    printf("enter the elements:");
+    for(i=0;i<=n;i++)
+    {
+    scanf("%d",ptr+i);
+    sum+= *(ptr+i);
+    }
+    printf("sum=%d",sum);
+    free(ptr);
+
+    return 0;
+}
+
+code-2:
+
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+int i,n,sum=0,*ptr;
+printf("enter the numbers:");
+scanf("%d",&n);
+ptr=(int*)calloc(n,sizeof(int));
+if(ptr == NULL)
+{
+printf("the memory is not allocated");
+}
+printf("enter the elements:");
+for(i=0;i<=n;i++)
+{
+scanf("%d",ptr+i);
+sum+= *(ptr+i);
+}
+printf("%d",sum);
+free(ptr);
+return 0;
+}
