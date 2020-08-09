@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    char s[100];
+    int i;
+scanf("%[^\n]",s); //getting input from user
+for(i=0;s[i]!= '\0';i++) //for loop to intialize string from 0 then it will read characters upto the end
+{
+    if(s[i] == ' ')
+    printf("\n");
+    else
+    printf("%c",s[i]);
+}
+}
