@@ -1,0 +1,28 @@
+HTML CODE:css.html
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<h1>Hello everyone</h1>
+<h2>Good morning</h2>
+<h3>I hope your all doing well</h3>
+</html>
+
+EXTERNAL CSS: style.css
+
+h1{
+color:blue;
+font-family:arial;
+}
+h2{
+color:red;
+font-style:italic;
+margin-left:20px;
+}
+h3{
+color:pink;
+margin-left:50px;
+}
+
