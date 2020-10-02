@@ -1,0 +1,149 @@
+1.Hello world:
+
+#include<stdio.h>
+void main()
+{
+    printf("hello world");
+}
+
+2.print an integer entered by user
+
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("enter an integer:");
+    scanf("%d",&n);
+    printf("the number is:%d",n);
+    return 0;    /** returns the values in main function and is considered as exit status"**/
+}
+
+3.Addition of two numbers
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("enter two integers:");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+
+    return 0;
+}
+
+4.Multiplication of two integers:
+
+#include <stdio.h>
+
+int main()
+{
+    float a,b,c;
+    printf("enter two integers:");
+    scanf("%f %f",&a,&b);
+    c=a*b;
+    printf("%f",c);
+
+    return 0;
+}
+
+5.finding an Ascii value
+
+#include <stdio.h>
+
+int main()
+{
+    char c;
+    printf("enter the character:");
+    scanf("%c",&c);
+  
+    printf("the ascii value of %c=%d",c,c);
+
+    return 0;
+}
+
+6.Finding quotient and remainder:
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,q,r;
+    printf("enter the numbers:");
+    scanf("%d %d",&a,&b);
+    q=a/b;
+    r=a%b;
+  printf("the quotient :%d and remainder:%d",q,r);
+
+    return 0;
+}
+
+7.Size of data types
+
+
+#include <stdio.h>
+
+int main()
+{
+ int a;
+ float b;
+ double c;
+ char d;
+ printf("size of int:%ld",sizeof(a));
+ printf("size of float:%ld",sizeof(b));
+ printf("size of double:%ld",sizeof(c));
+ printf("size of char:%ld",sizeof(d));
+
+    return 0;
+}
+
+8.Swapping of two numbers:
+
+#include <stdio.h>
+
+int main()
+{
+ int a,b,temp;
+ printf("enter the value of a and b:");
+ scanf("%d %d",&a,&b);
+ temp=a;
+ a=b;
+ b=temp;
+ printf("the values after swapping a:%d and b:%d",a,b);
+
+    return 0;
+}
+
+9.Finding even/odd number
+
+#include <stdio.h>
+
+int main()
+{
+ int a;
+ printf("enter a number:");
+ scanf("%d",&a);
+if(a%2==0)
+printf("even number");
+else
+printf("odd number");
+return 0;
+}
+
+10.Finding vowel/consonant:
+
+#include <stdio.h>
+
+int main()
+{
+ char c;
+ printf("enter a letter:");
+ scanf("%c",&c);
+if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u' ||c=='A' || c=='E' || c=='I' || c=='O' || c=='U')
+printf("vowel");
+else
+printf("consonant");
+return 0;
+}
