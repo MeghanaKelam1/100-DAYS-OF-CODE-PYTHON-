@@ -1,0 +1,95 @@
+Program to check alphabet:
+
+#include <stdio.h>
+
+int main()
+{
+    char c;
+    printf("enter a character");
+    scanf("%c",&c);
+    if((c>='a' && c<='z')|| (c>='A' && c<='Z'))
+    printf("%c is alphabet",c);
+    else
+    printf("%c is not an alphabet",c);
+
+    return 0;
+}
+
+
+Sum of natural numbers:
+
+#include <stdio.h>
+
+int main()
+{
+    int c,sum=0;
+    printf("enter a value");
+    scanf("%d",&c);
+  for(int i=0;i<=c;i++)
+  {
+      sum=sum+i;
+  }
+    printf("sum is:%d",sum);
+
+    return 0;
+}
+
+Factorail of a number:
+#include <stdio.h>
+
+int main()
+{
+    int c,fact=1;
+    printf("enter a value");
+    scanf("%d",&c);
+    if(c<0)
+    printf("it is a negitive number");
+    else
+    {
+  for(int i=1;i<=c;i++)
+  {
+      fact=fact*i;
+  }
+    printf("factorail is:%d",fact);
+}
+    return 0;
+}
+
+Multiplication table:
+
+#include <stdio.h>
+
+int main()
+{
+    int c,mul,i;
+    printf("enter a value");
+    scanf("%d",&c);
+   
+  for(int i=1;i<=10;i++)
+  {
+     
+    printf("%d*%d:%d\n",c,i,c*i);
+  }
+
+    return 0;
+}
+
+Fibonocci series;
+
+#include <stdio.h>
+
+int main()
+{
+    int c,mul,i1=0,i2=1,i3;
+    printf("enter a value");
+    scanf("%d",&c);
+   printf("fibinocci series:");
+   for(int i=1;i<=c;i++)
+   {
+       printf("%d ",i1);
+       i3=i1+i2;
+       i1=i2;
+       i2=i3;
+         }
+    return 0;
+}
