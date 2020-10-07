@@ -1,0 +1,54 @@
+Printing alphabets using for loop:
+
+
+#include <stdio.h>
+
+int main()
+{
+    char c;
+    printf("enter a character");
+   for(c='a';c<='z';c++)
+   {
+       printf("%c\n",c);
+   }
+    return 0;
+}
+
+Finding number of digits:
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a,count=0;
+    printf("enter a number");
+   scanf("%d",&a);
+ while(a>0)
+   {
+       a=a/10;
+       count++;
+   }
+   printf("number of digits:%d",count);
+    return 0;
+}
+
+
+Reversing a number:
+
+#include <stdio.h>
+
+int main()
+{
+    int n,num,r;
+    printf("enetr a number");
+    scanf("%d",&n);
+    while(n>0)
+    {
+        r=n%10;
+        num=num*10+r;
+        n=n/10;
+    }
+printf("the reverse of the number is:%d",num);
+    return 0;
+}
