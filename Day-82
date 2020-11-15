@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main()
+{
+    int n,rev,r;
+    printf("enter the number:");
+    scanf("%d",&n);
+    if(n<=0)
+    {
+        printf("invalid");
+    }
+else
+    {    
+    while(n>0)
+    {
+        r=n%10;
+        rev=rev*10+r;
+        n=n/10;
+    }
+
+    printf("the reverse number is:%d",rev);
+    }
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n,rev=0,r,temp;
+    printf("enter the number:");
+    scanf("%d",&n);
+temp=n;
+    while(n>0)
+    {
+        r=n%10;
+        rev=rev+(r*r*r);
+        n=n/10;
+    }
+if(temp==rev)
+{
+    printf("%d is an armstrong number:",rev);
+}
+else
+{
+    printf("%d is not an armstrong number",rev);
+    }
+    return 0;
+}
